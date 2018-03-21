@@ -19,10 +19,12 @@ h5	{
 
 #header h1	{
 	line-height: 70%;
+	font-size: 60px;
 }
 
-#header p{
+#header .lead{
 	padding-left: 6px;
+	font-size: 30px
 }
 
 .karuselli-teksti p	{
