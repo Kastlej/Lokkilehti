@@ -1,5 +1,5 @@
 
-
+$(document).ready(function() {
 
 	var scrollLink = $(".scroll");
 
@@ -22,3 +22,5 @@
 	    $(this).children("span").removeClass("hoverArrow");
 	  }
 	);
+
+});
