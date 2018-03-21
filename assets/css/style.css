@@ -29,9 +29,10 @@ h5	{
 
 .karuselli-teksti p	{
 	margin: 0 30px;
+	height: 230px;
 }
 
-div #navbar-landing	{
+div #navbar-home	{
 	background-color: #fff;
 }
 
@@ -96,11 +97,32 @@ div #navbar-landing	{
 	opacity: 0.1;
 }
 
-#omacss #landing{
+#omacss #home{
 	height: 100%;
 }
 
 
 #omacss .hoverArrow	{
 	opacity: 1;
+}
+
+#omacss .carousel-indicators	{
+	bottom: -20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#omacss	.card	{
+	border-radius: 0%;
+	border: none;
+	padding: 5px 5px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+	margin: 10px 0;
+}
+
+.card h5	{
+	text-transform: uppercase;
 }
