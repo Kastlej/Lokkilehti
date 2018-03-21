@@ -48,7 +48,6 @@ div #navbar-home	{
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 0;
-    /*box-shadow:0px -20px 50px 0.5px rgba(0,0,0,0.3) inset;*/
     height: 100vh;
     position: relative;
     margin-bottom: 0;
@@ -61,7 +60,6 @@ div #navbar-home	{
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 0;
-    /*box-shadow:0px -20px 50px 0.5px rgba(0,0,0,0.3) inset;*/
     height: 100%;
     position: relative;
     padding: 0 50px 0 50px;
@@ -133,11 +131,12 @@ div #navbar-home	{
 	bottom: -20px;
 }
 
+/*Artikkelikortit*/
+
 .flex {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 
 #omacss	.card	{
@@ -187,6 +186,21 @@ div #navbar-home	{
 	box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
 }
 
+
+/*Toinen jumbotron*/
+
+.containerjs {
+	background-color: rgba(255,255,255,0.6);
+	padding: 30px;
+	text-align: center;
+	border-radius: 50px;
+	margin-bottom: 100px;
+
+}
+
+
+/*yhteystietopalkki*/
+
 #yhteystiedot	{
 	padding-bottom: 50px;
 	text-align: center;
@@ -196,24 +210,13 @@ div #navbar-home	{
 	font-weight: 700;
 }
 
-
 #yhteystiedot li 	{
 	font-weight: 400;
 }
-
 
 
 #alalogo	{
 	width: 100%;
 	max-height: 150px;
 	max-width: 150px;
-}
-
-.containerjs {
-	background-color: rgba(255,255,255,0.6);
-	padding: 30px;
-	text-align: center;
-	border-radius: 50px;
-	margin-bottom: 100px;
-
 }

@@ -3,7 +3,8 @@ $(document).ready(function() {
 
 	var scrollLink = $(".scroll");
 
-	//smooth scrollign
+	//sulava scrollaus
+	
 	scrollLink.click(function(e){
 		e.preventDefault();
 		$("body,html").animate({
@@ -13,6 +14,7 @@ $(document).ready(function() {
 
 
 
+	//karusellin nuolien animointi
 
 	$("#carouselExampleIndicators a").hover(
 	  function () {
